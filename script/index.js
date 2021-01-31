@@ -1,5 +1,8 @@
 // close/open nav bar
 
-$("#menu").on("click", funtion(){
-        $(".navTab").slideToggle()
-})
+$("#menu").click(function(){
+        if ($(".navTab").css("display") == "none") {
+                $(".navTab").css("display", "block");
+        }
+        else    $(".navTab").css("display", "none");
+});

@@ -81,10 +81,12 @@ Body{
 
 #menu{
      display: none;
+     cursor: pointer;
 }
 
 #close{
      display: none;
+     cursor: pointer;
 }
 
 @media only screen and (max-width: 1000px){
@@ -94,15 +96,15 @@ Body{
      }
 
      #menu{
-          display: inline-block;
-          position: absolute;
+          display: block;
+          position: fixed;
           right: var(--spsc-5);
-          top:   25%;
-          
+          top:   var(--spsc-3);
      }
 
      .navTab{
           display: none;
+          align-self: center;
      }
 }
 
