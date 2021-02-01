@@ -217,7 +217,7 @@ a{
 /* LINES */
 
 :root {
-    --border: 1px solid var(--p-light);
+    --border: 1px solid var(--accent);
 }
 
 .ln {
@@ -313,11 +313,11 @@ a{
 }
 
 .padding-top{
-    padding: var(--spsc-5) var(--sp-base) var(--sp-base) var(--sp-base);
+    padding: var(--spsc-3) var(--sp-base) var(--sp-base) var(--sp-base);
 }
 
 .padding-bot{
-    padding: var(--sp-base) var(--sp-base) var(--spsc-5) var(--sp-base);
+    padding: var(--sp-base) var(--sp-base) var(--spsc-3) var(--sp-base);
 }
 
 .padding-tnb{
