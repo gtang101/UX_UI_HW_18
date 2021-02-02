@@ -1,7 +1,4 @@
 /* Copy from index */
-* {
-    font-family: 'Poppins', monospace;
-}
 
 /* General layout */
 Body{
@@ -39,7 +36,7 @@ Body{
          grid-template-areas: 
          "nav"
          "siteHeader"
-         "cardDisplay"
+         "content"
          "footer";
     }
 
@@ -60,10 +57,6 @@ Body{
 #navHeader {
     position: relative;
     height: 30%;
-}
-
-.logo{
-    font-family: 'Lobster';
 }
 
 .navTab a{
@@ -130,16 +123,25 @@ Body{
 
 }
 
-/* Content */
-    #content p{
-        padding-top: var(--spsc-3);
-    }
-
 /* Footer */
 
 #footer{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    justify-content: space-around;
+}
+
+.socialIcon a{
+    padding: 0 var(--spsc-3) 0 var(--spsc-3);
+}
+
+i:hover{
+    color: var(--accent);
+}
+
+/* End copy from index */
+
+/* Content */
+#content p{
+    padding-top: var(--spsc-3);
 }

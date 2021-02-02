@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css');
 
 /* BOILERPLATE */
 
@@ -7,6 +8,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', monospace;
+    line-height: var(--sc-C);
 }
 
 html,
@@ -111,7 +114,7 @@ html {
    }
 }
 
-/* FONT SIZES */
+/* FONT SIZES AND STYLES*/
 
 :root {
     --fs-1: 1rem;
@@ -169,6 +172,12 @@ h3 {
 
 p {
     font-size: var(--fs-2);
+}
+
+.logo{
+    font-family: 'Lobster';
+    text-decoration: none;
+    padding-top: 50%;
 }
 
 /* COLOURS */
@@ -323,4 +332,5 @@ a{
 .padding-tnb{
     padding: var(--spsc-3) var(--sp-base) var(--spsc-3) var(--sp-base);
 }
+
 
